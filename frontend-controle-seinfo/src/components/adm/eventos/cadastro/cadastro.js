@@ -79,7 +79,6 @@ export default {
       this.local_eve = "";
       this.select_status = "";
       this.descricao = "";
-      this.objeto_lote=[];
       this.obj_Resource=  {
         nome: "",
         data_ini: "",
