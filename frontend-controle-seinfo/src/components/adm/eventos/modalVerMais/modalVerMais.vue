@@ -39,5 +39,4 @@
     </div>
 </template>
 
-
 <script src="./modalVerMais.js" />
