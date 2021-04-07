@@ -80,7 +80,7 @@ export default {
       this.select_status = "";
       this.descricao = "";
       this.objeto_lote= [];
-      this.form.setFieldsValue ({keys: []});
+      this.form.resetFields();
       this.obj_Resource=  {
         nome: "",
         data_ini: "",
