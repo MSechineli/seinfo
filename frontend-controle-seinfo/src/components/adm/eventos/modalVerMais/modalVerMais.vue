@@ -33,6 +33,11 @@
             <label>Descrição: {{data.descricao }}</label>
             <br />
             <listagem v-bind:listData="this.res"/>
+            <router-link :to="{name: 'detalhesEvento', params:{id:data.idEvento, data:data}}"
+            data-dismiss="modal"
+            class="router-link">
+            <button type="button" class="btn">Detalhes do Evento</button>
+            </router-link>
           </div>
         </div>
       </div>
