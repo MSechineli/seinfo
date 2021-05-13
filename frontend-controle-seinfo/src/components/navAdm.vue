@@ -7,20 +7,6 @@
           <a-icon type="global"/>Eventos
           <router-link to="/adm/eventos"></router-link>
         </a-menu-item>
-        <a-sub-menu key="sub3">
-          <span slot="title">
-            <a-icon type="form"/>
-            <span>Atividades/Categorias</span>
-          </span>
-          <a-menu-item key="13">
-            Atividades
-            <router-link to="/adm/atividades"></router-link>
-          </a-menu-item>
-          <a-menu-item key="10">
-            Categorias
-            <router-link to="/adm/categoria"></router-link>
-          </a-menu-item>
-        </a-sub-menu>
         <a-sub-menu key="sub1">
           <span slot="title">
             <a-icon type="bank"/>
