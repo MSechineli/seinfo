@@ -3,7 +3,7 @@ const Presenca = db.Presenca;
 
 exports.create = (req, res) => {
 
-    const { idAtividade, idAgenda, idEvento, CPF } = req.params;
+    const { idAtividade, idAgenda, idEvento, CPF } = req.body;
 
     Presenca.create({
         idAtividade,
@@ -46,7 +46,7 @@ exports.findAll = (req, res) => {
 
 exports.delete = (req, res) => {  
 
-    const { idAtividade, idAgenda, idEvento, CPF } = req.params;
+    const { idAtividade, idAgenda, idEvento, CPF } = req.body;
 
     Presenca.destroy({ 
         where: { 
